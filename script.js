@@ -84,7 +84,7 @@ function handleCardClick(event) {
     target.removeAttribute('id');
     target.removeAttribute('style');
     clearEventLog();
-    alert(error);
+    // alert(error);
     scoreCard.innerText = `Your Score: ${guessCount}`;
     return;
   }
@@ -111,7 +111,7 @@ function handleCardClick(event) {
         secondCard.removeAttribute('id');
         clearEventLog();
         noClick = false;
-      }, 1500);
+      }, 1000);
     }
   }
   scoreCard.innerText = `Your Score: ${guessCount}`;
