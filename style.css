@@ -1,0 +1,85 @@
+#game div {
+	border: 3px solid purple;
+	width: 10%;
+	height: 150px;
+	padding: 10px;
+	display: block;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 5px 5px 5px 0px purple;
+	background-color: plum;
+}
+
+#game {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	width: 70%;
+}
+
+h1 {
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 3em;
+	text-align: center;
+	color: purple;
+}
+
+p {
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: purple;
+	border-radius: 5px;
+}
+
+/* #score {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+body {
+	background-color: plum;
+	background-image: url('food.png');
+}
+
+button {
+	display: block;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0 0 5px 0;
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 2em;
+	background-color: purple;
+	border: 3px solid purple;
+	border-radius: 5px;
+	color: white;
+	width: 200px;
+	text-align: center;
+}
+
+button:hover {
+	background-color: rgba(128, 0, 128, .8);
+	border: 3px dotted #ffcc99;
+	color: white;
+}
+
+#game > div:hover {
+	border: 3px solid #ffcc99;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+#game > div:click;
